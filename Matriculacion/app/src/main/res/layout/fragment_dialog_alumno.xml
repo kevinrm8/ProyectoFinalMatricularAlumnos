@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp">
+
+    <EditText
+        android:id="@+id/txtDni"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:inputType="text"
+        android:autofillHints="@string/txtDni"
+        android:hint="@string/txtDni"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/txtDni"
+        android:hint="@string/txtNombre"
+        android:autofillHints="@string/txtNombre" />
+
+    <EditText
+        android:id="@+id/txtApellidos"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/txtNombre"
+        android:hint="@string/txtApellidos"
+        android:importantForAutofill="no" />
+
+</RelativeLayout>

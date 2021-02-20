@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp">
+    <EditText
+        android:id="@+id/txtCodigo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/txtCodigo"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/txtCodigo"
+        android:hint="@string/txtNombre"
+        android:importantForAutofill="no" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Matriculacion</string>
+
+    <string name="tvTitulo">Titulo</string>
+    <string name="txtCodigo">Codigo</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtApellidos">Apellidos</string>
+    <string name="txtDni">DNI</string>
+    <string name="txtNumAlumnos">Num alumnos</string>
+
+    <string name="btnAsignaturas">Asignaturas</string>
+    <string name="btnAlumnos">Alumnos</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="btnCancelar">Cancelar</string>
+
+    <string name="imgEditarAsignatura">Editar asignatura</string>
+    <string name="imgBorrarAsignatura">Borrar asignatura</string>
+    <string name="imgDetalleAlumno">Detalle alumno</string>
+    <string name="imgEditarAlumno">Editar alumno</string>
+    <string name="imgBorrarAlumno">Borrar alumno</string>
+    <string name="radiobutton" />
+    <string name="tvTituloNueva">Selecciona nueva asignatura</string>
+
+</resources>
